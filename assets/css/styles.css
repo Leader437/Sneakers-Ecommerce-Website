@@ -609,13 +609,13 @@ footer {
 
 /* ===== MEDIA QUERIES=====*/
 @media only screen and (min-width:360px) {
-  #home {padding-top: 8rem;}
+  #home {padding-top: 10rem;}
 }
 
 @media only screen and (min-width:500px) {
   /* Home */
   #home {padding-top: 10rem;}
-  .home-img {width: 50%;}
+  .home-img {width: 60%;}
 }
 
 @media only screen and (min-width:700px) {
