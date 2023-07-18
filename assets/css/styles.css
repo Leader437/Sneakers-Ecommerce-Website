@@ -261,6 +261,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 5rem;
+  padding-bottom: 0;
 }
 
 .home-img {
