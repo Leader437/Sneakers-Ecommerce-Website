@@ -628,6 +628,7 @@ footer {
     z-index: 1;
   }
   /* Home */
+  #home {padding-top: 0;}
   .home-img {width: 60%;}
   .home {
     flex-direction: row-reverse;
