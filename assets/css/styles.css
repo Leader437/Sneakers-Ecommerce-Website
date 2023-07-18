@@ -498,6 +498,7 @@ input[type="text"] {
   font-size: var(--smaller-font-size);
   border-bottom-left-radius: 0.7rem;
   border-top-left-radius: 0.7rem;
+  max-width: 12rem;
 }
 
 input[type="submit"] {
@@ -612,7 +613,10 @@ footer {
   #home {padding-top: 10rem;}
   input {
   font-size: var(--small-font-size);
-  padding: 1.1em 0.7em;
+    padding: 1.1em 0.7em;
+  }
+  input[type="text"] {
+    max-width: 100%;
   }
 }
 
