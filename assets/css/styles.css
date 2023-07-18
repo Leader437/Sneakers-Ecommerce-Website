@@ -483,11 +483,10 @@ body {
 form {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 input {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
   padding: 1.1em 0.5em;
 }
@@ -611,6 +610,10 @@ footer {
 /* ===== MEDIA QUERIES=====*/
 @media only screen and (min-width:360px) {
   #home {padding-top: 10rem;}
+  input {
+  font-size: var(--small-font-size);
+  padding: 1.1em 0.7em;
+  }
 }
 
 @media only screen and (min-width:500px) {
