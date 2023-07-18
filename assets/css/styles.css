@@ -483,13 +483,13 @@ body {
 form {
   display: flex;
   justify-content: center;
-  max-width: 100%;
+  width: 100%;
 }
 
 input {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
-  padding: 1.1em 0.7em;
+  padding: 1.1em 0.5em;
 }
 
 input[type="text"] {
