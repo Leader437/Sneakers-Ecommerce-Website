@@ -252,7 +252,7 @@ body {
 /*===== HOME =====*/
 #home {
   background-color: var(--dark-color-lighten);
-  padding-top: 10rem;
+  padding-top: 8rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
